@@ -1,0 +1,26 @@
+.multiplebgs body{background: url('../img/bg-body-circles.png') 50% 0 no-repeat, url('../img/bg-body.jpg') 0 0 repeat-x; background-color: #00aeff }
+body{background: #00aeff url('../img/bg-body.jpg') 0 0 repeat-x;}
+
+/*	GENERAL */
+
+/*	HEADER 	*/
+#header{border-top: 4px solid #FFF}
+
+	.header-top{}
+		.header-top .social{float: right;}
+						.social ul{position: relative;}
+						.social ul:before, .social ul:after{ position: absolute; height: 36px; width: 29px; top: 0; content: '\0020'; display: block}
+						.social ul:before{left: -25px; background: url('../img/bg-social-left.png') 0 0 no-repeat;}
+						.social ul:after{right: -25px; background: url('../img/bg-social-right.png') 0 0 no-repeat;}
+							.social li{float: left;background: url('../img/bg-social.png') 0 0 repeat-x; line-height: 36px;}
+
+						.social .ico-btn {display: block; height: 36px; width: 36px; text-indent: -9999px;}
+						.ico-btn.g-plus {background: url('../img/ico-g-plus.png') 50% 50% no-repeat;}
+						.ico-btn.fb {background: url('../img/ico-fb.png') 50% 50% no-repeat;}
+						.ico-btn.yt {background: url('../img/ico-yt.png') 50% 50% no-repeat;}
+						.ico-btn.rss {background: url('../img/ico-rss.png') 50% 50% no-repeat;}
+
+/*	MAIN 	*/
+
+
+/*	FOOTER 	*/
